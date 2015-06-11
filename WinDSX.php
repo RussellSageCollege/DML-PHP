@@ -15,7 +15,7 @@ class WinDSX
      * @param string $identifier
      * @return string
      */
-    public function setID($identifier = '')
+    public function set_id($identifier = '')
     {
         return 'I L1 U1 ^' . $identifier . '^^^';
     }
@@ -24,7 +24,7 @@ class WinDSX
      * @param string $table_name
      * @return string
      */
-    public function setTable($table_name = '')
+    public function set_table($table_name = '')
     {
         return 'T ' . $table_name;
     }
@@ -34,7 +34,7 @@ class WinDSX
      * @param string $field_value
      * @return string
      */
-    public function setField($field_name = '', $field_value = '')
+    public function set_field($field_name = '', $field_value = '')
     {
         return 'F ' . $field_name . ' ^' . $field_value . '^^^';
     }

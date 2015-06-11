@@ -8,7 +8,7 @@
  *
  * This is a wrapper around the WinDSX Markup Language, http://www.dsxinc.com/Docs/databasemgmtapi.pdf
  */
-class WinDSX
+class DML
 {
 
     /**

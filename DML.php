@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Created by PhpStorm.
  * User: melon
@@ -8,7 +7,10 @@
  *
  * This is a wrapper around the WinDSX Markup Language, http://www.dsxinc.com/Docs/databasemgmtapi.pdf
  */
-class DML
+
+namespace Edu\Sage\Wrapper;
+
+abstract class DML
 {
 
     /**

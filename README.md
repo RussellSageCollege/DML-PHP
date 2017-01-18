@@ -5,12 +5,13 @@ This class wraps a few functions around the commands in WinDSX's markup language
 Usage:
 
 ```php
+<?php
 
 use Edu\Sage\Wrapper\DML as DML;
 
 class foo {
 	public function bar() {
-	
+
         $dml = new DML();
 
         $dml_cmds = array();

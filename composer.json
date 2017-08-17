@@ -1,0 +1,26 @@
+{
+  "name": "the-sage-colleges/dml-php",
+  "description": "WinDSX DML library",
+  "keywords": ["dsx", "win", "windsx", "dml"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alex Markessinis",
+      "email": "markea@sage.edu"
+    }
+  ],
+  "type": "library",
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Sage\\": "src/",
+      "Sage\\DSX\\": "src/DSX/"
+    }
+  },
+  "scripts": {
+  }
+}

@@ -1,13 +1,19 @@
-# WinDSX wrapper class.
+# WinDSX Library PHP
 
-This class wraps a few functions around the commands in WinDSX's markup language.
+Library used to generate WinDSX DML.
+
+Install:
+
+```bash
+composer require the-sage-colleges/dml-php;
+```
 
 Usage:
 
 ```php
 <?php
 
-use Edu\Sage\Wrapper\DML as DML;
+use Sage\DSX\DML;
 
 class foo {
 	public function bar() {

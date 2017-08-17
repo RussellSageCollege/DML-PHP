@@ -8,11 +8,10 @@
  * This is a wrapper around the WinDSX Markup Language, http://www.dsxinc.com/Docs/databasemgmtapi.pdf
  */
 
-namespace Edu\Sage\Wrapper;
+namespace Sage\DSX;
 
-abstract class DML
+class DML
 {
-
     /**
      * @param string $identifier
      * @return string
